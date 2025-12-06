@@ -1,15 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio - Techit</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
-    <h1> my name is Techit</h1>
-    <h2> Welcome io CE Next Gen 3</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque reprehenderit cupiditate dicta reiciendis quasi exercitationem voluptates, omnis esse praesentium minus.</p>
 
-    <script src="./script.js"></script>
+  <nav class="top-bar">
+    <a href="detail.html">About me</a>
+    <a href="https://github.com/radar232604" target="_blank" rel="noopener noreferrer">GitHub</a>
+    <a href="https://medium.com/@techitchomchoy" target="_blank" rel="noopener noreferrer">Medium</a>
+  </nav>
+
+  <header class="hero-clean">
+    <div class="hero-container">
+      <h1>Hello! I Am <span style="color: turquoise;">Techit</span></h1>
+      <p>From Nakprasith School in Nakhon Pathom</p>
+    </div>
+  </header>
+
+  <main>
+    <section id="about-me" class="section-box">
+      <h2>Preface</h2>
+      <h3>
+        I have been <span style="color: turquoise;">interested in computers since lower secondary school</span>, starting with basics such as <br> assembling computers, installing operating systems, and troubleshooting.
+        In upper secondary school,<br>I studied programming with Python and <span style="color: turquoise;">gained additional knowledge of computer networks from my father.</span>With this foundation, I am determined to further my studies in technology to create innovations <br>that positively impact society.
+      </h3>
+    </section>
+
+    <section id="projects" class="section-box">
+      <h1>My projects</h1>
+      <div class="projects-grid">
+        <div class="project-card">
+            <h3>Project 1</h3>
+            <h4>เครื่องเก็บเกี่ยวเเละ<br />คัดเเยกมะนาวอัตโนมัติ</h4>
+          <a href="project1.html" class="btn-back"></a>
+        </div>
+        <div class="project-card">
+            <h3>Project 2</h3>
+            <h4>เว็บไซต์ปฐมพยาบาลเบื้องต้น<br>เมื่ออาหารติดคอ</h4>
+          <a href="project2.html" class="btn-back"></a>
+        </div>
+        <div class="project-card">
+            <h3>Project 3</h3>
+            <h4>เว็บไซต์พอร์ตฟอลิโอ</h4>
+          <a href="project3.html" class="btn-back"></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section-box">
+        <h2>I'm trying to find more opportunity <br> for me to embrace <span style="color: turquoise;">my skills</span> and <span style="color: turquoise;">performance.
+        </span> Finding <br> hackathon to attend to gain more experience and skills.<br> And I'm collection certificate for my portfolio.</h2>
+    </section>
+
+    <section id="certificates" class="section-box">
+        <h1>Certificates</h1>
+        <div class="projects-grid">
+    
+        <div class="project-card">
+            <h3>Certificate 1</h3>
+            <img src="./photo/Screenshot 2568-12-06 at 15.37.51.png" class="btn-back">
+            <h4>certificate TobeIT'69 <br><span style="color:orange ;">@KMITL</span></h4>
+        </div>
+
+        <div class="project-card">
+            <h3>Certificate 2</h3>
+            <img src="./photo/Screenshot 2568-12-06 at 15.46.24.png" class="btn-back"></=>
+            <h4>certificate fun with python <br>K-Engineering<br><span style="color: orange;">@KMITL</span></h4>
+        </div>
+
+        <div class="project-card">
+            <h3>Certificate 3</h3>
+            <img src="./photo/Screenshot 2568-12-06 at 15.38.45.png" class="btn-back"></=>
+            <h4>certificate Bootcamps for statics Career #3 <br><span style="color: orange;">@KMITL</span></h4>
+        </div>
+
+        <div class="project-card">
+            <h3>Certificate 4</h3>
+            <img src="./photo/Screenshot 2568-12-06 at 15.39.05.png" class="btn-back"></=>
+            <h4>certificate Bootcamps for Youth Data Analysts<br><span style="color: orange;">@KMITL</span></h4>
+        </div>
+
+        <div class="project-card">
+            <h3>Certificate 5</h3>
+            <img src="./photo/Screenshot 2568-12-06 at 15.39.28.png" class="btn-back"></=>
+            <h4>certificate Build Your Own AI #3<br><span style="color: orange;">@KMITL</span></h4>
+        </div>
+
+        <div class="project-card">
+            <h3>Certificate 6</h3>
+            <img src="./photo/image.png" class="btn-back"></=>
+            <h4>The 2025 Annual Science Day Exhibition<br><span style="color: orange;">@KMITL</span></h4>  
+        </div>
+        </div>
+    </section>
+
+    <section id="technologies" class="section-box">
+      <h2>Web Development Technologies</h2>
+      <div class="tech-logos">
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" />
+          <p>HTML5</p>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" />
+          <p>CSS3</p>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+          <p>JavaScript</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Techit Chomchoy . All rights reserved .</p>
+  </footer>
+
 </body>
 </html>
